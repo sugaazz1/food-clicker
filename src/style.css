@@ -1,1 +1,85 @@
 @import "tailwindcss";
+
+main {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Food-clicker Food-clicker Food-clicker Food-clicker UPGRADES UPGRADES UPGRADES"
+      "Food-clicker Food-clicker Food-clicker Food-clicker UPGRADES UPGRADES UPGRADES"
+      "Food-clicker Food-clicker Food-clicker Food-clicker UPGRADES UPGRADES UPGRADES"
+      "Food-clicker Food-clicker Food-clicker Food-clicker UPGRADES UPGRADES UPGRADES"
+      "FARM FARM FARM FARM FARM FARM FARM"
+      "FARM FARM FARM FARM FARM FARM FARM";
+  }
+  
+  .Food-clicker { grid-area: Food-clicker; }
+  
+  .UPGRADES {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+    grid-area: UPGRADES;
+  }
+  
+  .FARM { grid-area: FARM; }
+  
+
+
+
+
+
+
+  @font-face {
+    font-family: 'Rebellion Squad';
+    src: url('/src/fonts/RebellionSquad-ZpprZ.ttf') format('truetype');
+  }
+  .rebellion-squad {
+    font-family: 'Rebellion Squad';
+  }
+
+  @font-face {
+    font-family: 'Samurai Blast';
+    src: url('/src/fonts/SamuraiBlast-8MnyD.otf') format('opentype'); 
+  }
+  .samurai-blast {
+    font-family: 'Samurai Blast';
+  }
+
+  @font-face {
+    font-family: '';
+    src: url('/src/fonts/') format('');
+  }
+  . {
+    font-family: '';
+  }
+
+  @font-face {
+    font-family: '';
+    src: url('/src/fonts/') format('');
+  }
+  . {
+    font-family: '';
+  }
+
+  @font-face {
+    font-family: '';
+    src: url('/src/fonts/') format('');
+  }
+  . {
+    font-family: '';
+  }
+
+  @font-face {
+    font-family: '';
+    src: url('/src/fonts/') format('');
+  }
+  . {
+    font-family: '';
+  }
