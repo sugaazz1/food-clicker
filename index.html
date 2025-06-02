@@ -9,16 +9,34 @@
   </head>
   <body>
     <main class="w-screen h-screen">
-      <div class="Food-clicker bg-blue-500">
-        <h1 class="font-bold text-4xl text-center rebellion-squad"> Food Clicker</h1>
+      <div class="Food-clicker bg-blue-500 relative">
+        <h1 class=" text-4xl text-center rebellion-squad"> Food Clicker</h1>
+          
+        <button class=" text-3xl text-white p-1.5 translate-y-4 ml-10 bg-black"> 0 Cash</button>
+
+        <button class="text-center clicker w-19 absolute left-1/2 top-1/2 -translate-9.5"> 
+          <img src="/src/images/food-clicker-icon.webp" class="">
+        </button>
       </div>
 
       <div class="UPGRADES bg-orange-300">
-        <h1 class="font-bold text-4xl text-center "> Upgrades</h1>
+        <h1 class=" text-4xl text-center rebellion-squad "> Upgrades</h1>
+          <div class="flex flex-col space-x-1">
+            <button>
+              <img src="/src/images/wheat seed.png" alt="wheat-seed" class="border-2 rounded-full bg-amber-100 border-black">
+            </button>
+            
+            <button>
+              <img src="/src/images/chickegg.png" alt="egg" class="border-2 rounded-full bg-amber-100 border-black">
+            </button>
+          </div>
       </div>
       
       <div class="FARM bg-purple-500">
-        <h1 class="font-bold text-4xl text-center ">FARMM </h1>
+        <h1 class=" text-4xl text-left rebellion-squad ">Farm </h1>
+        <button class=" text-2xl text-white p-1"> 
+          Wheat Farm
+        </button>
       </div>
 
     </main>

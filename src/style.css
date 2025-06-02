@@ -26,12 +26,18 @@ main {  display: grid;
       ". . ."
       ". . .";
     grid-area: UPGRADES;
+    
   }
   
-  .FARM { grid-area: FARM; }
+  .FARM { grid-area: FARM;
+    
+
+}
   
 
-
+.clicker:active{
+    filter: invert();
+}
 
 
 
