@@ -12,23 +12,36 @@
       <div class="Food-clicker bg-blue-500 relative">
         <h1 class=" text-4xl text-center rebellion-squad"> Food Clicker</h1>
           
-        <button class=" text-3xl text-white p-1.5 translate-y-4 ml-10 bg-black"> 0 Cash</button>
+        <button id="counter" class=" text-3xl text-white p-1.5 translate-y-4 ml-10 bg-black"> 0 Foodbucks</button>
 
-        <button class="text-center clicker w-19 absolute left-1/2 top-1/2 -translate-9.5"> 
+        <button onclick="changePoint(1)" class="text-center clicker w-19 absolute left-1/2 top-1/2 -translate-9.5"> 
           <img src="/src/images/food-clicker-icon.webp" class="">
         </button>
       </div>
 
-      <div class="UPGRADES bg-orange-300">
-        <h1 class=" text-4xl text-center rebellion-squad "> Upgrades</h1>
-          <div class="flex flex-col space-x-1">
-            <button>
-              <img src="/src/images/wheat seed.png" alt="wheat-seed" class="border-2 rounded-full bg-amber-100 border-black">
-            </button>
+      <div class="UPGRADES bg-orange-300 pl-3">
+        <h1 class=" text-4xl rebellion-squad "> Upgrades</h1>
+        <br>
+          <div class="flex flex-col space-y-1.5 w-20">
+          
+              <button onclick="buyWheat()" class="wheat border-2 rounded-3xl bg-amber-100 border-black">
+                Buy Wheat seed<img src="/src/images/wheat seed.png" alt="wheat-seed" >
+                
+              </button>
             
-            <button>
-              <img src="/src/images/chickegg.png" alt="egg" class="border-2 rounded-full bg-amber-100 border-black">
-            </button>
+
+            
+              <button class="border-2 rounded-3xl bg-amber-100 border-black">
+                Buy Egg<img src="/src/images/chickegg.png" alt="egg" >
+              </button>
+          
+            
+            
+              <button class="border-2 rounded-3xl bg-amber-100 border-black">
+                Buy Carrot seed <img src="/src/images/carrot-seed.png" alt="Carrot-Seeds">
+              </button>
+            
+
           </div>
       </div>
       
@@ -41,6 +54,6 @@
 
     </main>
 
-    <script type="module" src="/src/main.js"></script>
+    <script src="/src/main.js"></script>
   </body>
 </html>

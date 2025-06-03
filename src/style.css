@@ -16,24 +16,22 @@ main {  display: grid;
   
   .Food-clicker { grid-area: Food-clicker; }
   
-  .UPGRADES {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ". . ."
-      ". . ."
-      ". . .";
+  .UPGRADES { 
     grid-area: UPGRADES;
     
   }
   
   .FARM { grid-area: FARM;
-    
+
 
 }
   
+.wheat:active{
+    filter: invert();
+}
+
+
+
 
 .clicker:active{
     filter: invert();
